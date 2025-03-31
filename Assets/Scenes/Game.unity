@@ -148,7 +148,7 @@ Transform:
   m_GameObject: {fileID: 19813625}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.143, y: -0.12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -166,11 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db106c68a07de0e44852e626f277aa54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 7400700419982470086, guid: c49cad6a92c0fa543b8eacb5936bf2c3, type: 3}
-  damage: 0
-  speed: 10
-  cooldownDuration: 0.5
-  pierce: 0
+  weaponData: {fileID: 11400000, guid: a4a0fb10ef61bc44198340c235b500f1, type: 2}
 --- !u!1001 &59079100
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -256,7 +252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 543b42637bd25b643b30f2d10797a879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  enemyData: {fileID: 11400000, guid: 629510df57296bd4784ed3348ff13d20, type: 2}
 --- !u!1 &249346681
 GameObject:
   m_ObjectHideFlags: 0
@@ -31206,7 +31202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 543b42637bd25b643b30f2d10797a879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  enemyData: {fileID: 11400000, guid: 629510df57296bd4784ed3348ff13d20, type: 2}
 --- !u!1 &1169907257
 GameObject:
   m_ObjectHideFlags: 0
@@ -31358,7 +31354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 543b42637bd25b643b30f2d10797a879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  enemyData: {fileID: 11400000, guid: 629510df57296bd4784ed3348ff13d20, type: 2}
 --- !u!1 &1303145147
 GameObject:
   m_ObjectHideFlags: 0
@@ -42239,7 +42235,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1773850263, guid: 2a29d93d875fc9e42b59bdeb33925314, type: 3}
+  m_Sprite: {fileID: -30127425, guid: e18f434c835ad2347906962f8faf0ec3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -42259,7 +42255,7 @@ Transform:
   m_GameObject: {fileID: 1664058117}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 33.05, y: -24.33, z: 0}
+  m_LocalPosition: {x: 33.05, y: -23.828, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -42356,18 +42352,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0015487671, y: 0.0046482086}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.04, y: 0.96}
+    oldSize: {x: 0.8125, y: 0.75}
     newSize: {x: 1.04, y: 0.96}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.04, y: 0.96}
+  m_Size: {x: 0.84474945, y: 0.78334427}
   m_EdgeRadius: 0
 --- !u!1 &1686755496
 GameObject:
@@ -42786,7 +42782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 543b42637bd25b643b30f2d10797a879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  enemyData: {fileID: 11400000, guid: 629510df57296bd4784ed3348ff13d20, type: 2}
 --- !u!1 &2015344690
 GameObject:
   m_ObjectHideFlags: 0

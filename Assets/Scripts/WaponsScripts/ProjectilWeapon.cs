@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ProjectilWeapon : MonoBehaviour
 {
+  public WeaponScriptableObject weaponData;
     protected Vector3 direction;
     public float destroyAfterSeconds;
 
@@ -14,9 +15,9 @@ public class ProjectilWeapon : MonoBehaviour
 
     public void DirectionChecker(Vector3 dir)
     {
-        direction = dir.normalized; // Normalizamos para evitar problemas con diferentes velocidades
+        direction = dir.normalized;
 
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg; // Calcula el ángulo correcto
-        transform.rotation = Quaternion.Euler(1, 1, angle - 90); // Aplica la rotación
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg; 
+        transform.rotation = Quaternion.Euler(1, 1, angle - 90);
     }
 }

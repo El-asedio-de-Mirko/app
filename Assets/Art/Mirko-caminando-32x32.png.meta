@@ -1,10 +1,7 @@
 fileFormatVersion: 2
-guid: e69da2c9f7dc337418d6a3886a7dcd53
+guid: e18f434c835ad2347906962f8faf0ec3
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 2545729084865480563
-    second: Sword_5_0
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -96,39 +93,89 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sword_5_0
+      name: Mirko-caminando-32x32_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 15
-        height: 36
+        x: 6
+        y: 7
+        width: 26
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 37789c56d1f345320800000000000000
-      internalID: 2545729084865480563
+      spriteID: 289e900071153084bb44591455aa40d7
+      internalID: -30127425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirko-caminando-32x32_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 7
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6095f4c8c1700bc498fc5a26678cf93c
+      internalID: -81579087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirko-caminando-32x32_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 7
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a10a6523e21c64b936b9a4946ad38a
+      internalID: 1138306362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mirko-caminando-32x32_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 7
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656a4e781c8767a45b765d34ab885fa5
+      internalID: 1108687956
       vertices: []
       indices: 
       edges: []
@@ -136,7 +183,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -144,7 +191,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sword_5_0: 2545729084865480563
+      Mirko-caminando-32x32_0: -30127425
+      Mirko-caminando-32x32_1: -81579087
+      Mirko-caminando-32x32_2: 1138306362
+      Mirko-caminando-32x32_3: 1108687956
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
