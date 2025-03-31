@@ -24,6 +24,8 @@ public class PauseMenu : MonoBehaviour
                 Pausa();
             }
         }
+        
+
     }
 
     public void Pausa()
@@ -33,6 +35,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         botonPausa.SetActive(false);
         menuPausa.SetActive(true);
+        
     }
 
     public void Reanudar()
