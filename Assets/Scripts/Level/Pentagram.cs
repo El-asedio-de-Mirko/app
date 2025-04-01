@@ -32,7 +32,7 @@ public class Pentagram : MonoBehaviour
         if(enemigosEliminados == cantidadEnemigos)
         {
             ActivePentagram();
-           
+          
         }
     }
 
