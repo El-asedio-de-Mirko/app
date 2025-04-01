@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7588ca403904b544b7f9f5dc8add870, type: 3}
   m_Name: Knife Weapon
   m_EditorClassIdentifier: 
-  prefab: {fileID: 7400700419982470086, guid: c49cad6a92c0fa543b8eacb5936bf2c3, type: 3}
-  damage: 0
+  prefab: {fileID: 1464818751173607116, guid: 3b6617afe5fed2849a26600d920c07b7, type: 3}
+  damage: 5
   speed: 10
   cooldownDuration: 1
-  pierce: 0
+  pierce: 1
