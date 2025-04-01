@@ -5,45 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class Pentagram : MonoBehaviour
 {
-    private int cantidadEnemigos;
-    private int enemigosEliminados;
+    
     private Animator animator;
+    private bool bandera;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
-        cantidadEnemigos = GameObject.FindGameObjectsWithTag("Enemy").Length;
-        enemigosEliminados = 0;
-        Debug.Log(cantidadEnemigos);
-        Debug.Log(enemigosEliminados);
-        
-
     }
 
-    private void ActivePentagram()
+    public void ActivePentagram()
     {
         animator.SetTrigger("Activar");
+        bandera = true;
     }
-
-    public void EnemigoEliminado()
-    {
-        enemigosEliminados += 1;
-        Debug.Log(enemigosEliminados);
-        if(enemigosEliminados == cantidadEnemigos)
-        {
-            ActivePentagram();
-          
-        }
-    }
-
-
-
-    //En la parte del codigo en donde se elimine el enemigo pon lo siguiente
-    // GameObject.FindGameObjectWithTag("Pentagram").GetComponent<Pentagram>().EnemigoEliminado();
-
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player") && enemigosEliminados == cantidadEnemigos)
+        if(other.CompareTag("Player") && bandera)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             Debug.Log("Holis");
