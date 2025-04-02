@@ -7,6 +7,8 @@ public class PlayerStats : MonoBehaviour
 {
     public CharacterScriptableObjects characterData;
 
+    private LifeBar lifeBar;
+
     //Player Stats
     public float health;
     public float recovery;
@@ -20,9 +22,15 @@ public class PlayerStats : MonoBehaviour
     might = characterData.Might;
   }
 
-  public void TakeDamage(float damage)
+    private void Start()
+    {
+        lifeBar = FindAnyObjectByType<LifeBar>();
+    }
+
+    public void TakeDamage(float damage)
   {
     health -= damage;
+    lifeBar.DisminuirVida(damage);
     if (health <= 0)
     {
       KillPlayer();
@@ -38,6 +46,7 @@ public class PlayerStats : MonoBehaviour
   {
     if (health < characterData.Health)
     {
+    lifeBar.AumentarVida(amount);
       health += amount;
       if (health > characterData.Health)
       {
