@@ -26,7 +26,15 @@ public class EnemyStats : MonoBehaviour
     }
     public void Kill()
     {
-        // Add death logic here (e.g., play animation, drop loot, etc.)
         Destroy(gameObject);
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.CompareTag("Player"))
+        {
+            PlayerStats player = col.gameObject.GetComponent<PlayerStats>();
+            player.TakeDamage(currentDamage);
+        }
     }
 }

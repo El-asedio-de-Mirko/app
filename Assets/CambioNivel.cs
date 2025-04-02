@@ -8,7 +8,7 @@ public class CambioNivel : MonoBehaviour
     // Start is called before the first frame update
 
 
-     private XPBar xpBar;
+    private XPBar xpBar;
 
     private void Start()
     {
@@ -16,13 +16,6 @@ public class CambioNivel : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-           
-            xpBar.AumentarXP(5);
-
-            
-        }
 
     }
 }
