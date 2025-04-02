@@ -27,6 +27,8 @@ public class LifeBar : MonoBehaviour
 
     public void AumentarVida(float val)
     {
-        slider.value += val;
+        Debug.Log(slider.value);
+        slider.value = val;
+        Debug.Log(slider.value);
     }
 }
