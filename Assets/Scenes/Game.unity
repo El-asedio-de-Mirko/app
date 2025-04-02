@@ -43885,6 +43885,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   normalSprite: {fileID: -30127425, guid: e18f434c835ad2347906962f8faf0ec3, type: 3}
   parrySprite: {fileID: 402878853, guid: a008c95213fbc5840a7e7c61edc491e2, type: 3}
+  damageSprite: {fileID: -1944277838, guid: 1a15cb289d834d341b897db64bd7fb14, type: 3}
+  deathSprite: {fileID: -1672963340, guid: a9645fd0139d4e14ebe1a16222f367e9, type: 3}
 --- !u!114 &1664058122
 MonoBehaviour:
   m_ObjectHideFlags: 0
