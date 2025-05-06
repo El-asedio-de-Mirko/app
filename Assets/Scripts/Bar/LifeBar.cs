@@ -8,6 +8,7 @@ public class LifeBar : MonoBehaviour
     public Slider slider;
     public float maxHealt;
     public CharacterScriptableObjects characterData;
+
     private void Awake()
     {
         maxHealt = characterData.Health;

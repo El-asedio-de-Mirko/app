@@ -48,7 +48,7 @@ public class PlayerStats : MonoBehaviour
     {
     
       health += amount;
-      lifeBar.AumentarVida(health);
+      
       if (health > characterData.Health)
       {
         health = characterData.Health;
