@@ -8,6 +8,7 @@ public class PlayerStats : MonoBehaviour
     public CharacterScriptableObjects characterData;
 
     private LifeBar lifeBar;
+    [SerializeField] private GameOverMenu gameOverMenu;
 
     //Player Stats
     public float health;
@@ -25,6 +26,7 @@ public class PlayerStats : MonoBehaviour
     private void Start()
     {
         lifeBar = FindAnyObjectByType<LifeBar>();
+     
     }
 
     public void TakeDamage(float damage)
@@ -40,7 +42,9 @@ public class PlayerStats : MonoBehaviour
   public void KillPlayer()
   {
     Debug.Log("Player is dead!");
-  }
+    gameOverMenu.GameOver();
+
+   }
 
   public void RestoreHealth(float amount)
   {
