@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 501dbffb327bc354f9a66aefa22e5e14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xpValue: 5
+  xpValue: 10
 --- !u!60 &-269545517993185928
 PolygonCollider2D:
   m_ObjectHideFlags: 0
