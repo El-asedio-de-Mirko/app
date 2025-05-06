@@ -1,0 +1,2666 @@
+fileFormatVersion: 2
+guid: 3903130b2fb02594993725c521c1619a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 929
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c080ad57dab1044b04dc718e1453f8
+      internalID: 1560825424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 929
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e00f899ef3c7e64d991ee50408a8561
+      internalID: -369851044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 929
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84898975cb114144195c946d620359d6
+      internalID: 943533879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 929
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d747c000d0f1244b9e337cd796bceb4
+      internalID: 1589796995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 899
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b3a0ab13cd95a44a83630976d1c6ba
+      internalID: 1918145022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 899
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fef5525018c53a458d710cc049bdfbb
+      internalID: 2084127561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 899
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0168a6358d9f6b547b4be1022f2f4b3d
+      internalID: -173049311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 896
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fe1df5c2daa214782fb87f133eaf76
+      internalID: -1597915924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 875
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8845aeb6e9f3645b435f1b161914e8
+      internalID: -1464574885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 875
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4501b1755f75a4ba077f2b2d953358
+      internalID: 574319502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 875
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04118a08a4bb8c64c961dfd8d9c4f610
+      internalID: -1553503717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 864
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facf50322b2611748ac6eab5d11f3eb7
+      internalID: -1692866388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 832
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0ac6f6f5a001f469f7759edc8ba33d
+      internalID: 602573677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 832
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48183812b0e4dc444b4e3b563e814261
+      internalID: 1629390008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 832
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e5715c8e022b44d9c2ffaafd3ed535
+      internalID: -1798553002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 835
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5caf84f4415a9843bf7250948ee1de3
+      internalID: -394122867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 802
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaaca53700b8505409bb22cc0af21555
+      internalID: -946863274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 802
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade3fad3921d8be49ba56763b307fbc9
+      internalID: -1582750411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 802
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118262c5597fbad499f24f730f531f19
+      internalID: -153178227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 802
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855c8a7fc4ed0b24287e558ef3324fb0
+      internalID: -1835743791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 772
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857bcee69edd40e4fbab176cb9eeb871
+      internalID: 1734917473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 772
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50dbd322dc65e804c8c3ec02399f7487
+      internalID: 1641983299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 770
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b811bb08986ba5c41bf9fbdc9c610722
+      internalID: -940801606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 773
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f133f9bcd664c0e4b8fd51a49fbbad03
+      internalID: -405632656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 736
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e673a89392671543913ef72b83aec7d
+      internalID: -1028080006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 736
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b86aa05a8143ab4b9e6470769ff01e5
+      internalID: 1730031615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 736
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a476c5f8bcae43142b23035b8ce5ba7d
+      internalID: -879747373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 739
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e95c67d13f5dd468131768961d59b1
+      internalID: 422013395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 706
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef13b50911657a41975854ded836f2e
+      internalID: 2021696509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 706
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d0e9a20dcfdd74c80128e8c6d375b2
+      internalID: 897418121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 706
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f260859bb510141b961868e11b069f
+      internalID: -72351455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 706
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ece0a87f5bcfd46b43b770a3778799
+      internalID: 736069632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 680
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502fb341ebf499a4498e52ebde3d1ebb
+      internalID: -764999082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 675
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180f02598280ef946b976a6f8192c4eb
+      internalID: 1158034547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 674
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5d38d3731c3494c84a47a46ba6d9e5
+      internalID: -1712661102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 674
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cc161ec16652542bc2e14f66749cde
+      internalID: 837169217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 608
+        width: 28
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b593858a9fa84e9428de070d6d85daf4
+      internalID: 1483307498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 608
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80b7ae99fcbdc3438f068b5413c770f
+      internalID: 836917550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 608
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c072fcd7b9cdcc14e9e927edb918fe1e
+      internalID: 682185114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 642
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd4cd097648515479d2154d4d8d0259
+      internalID: 641637952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 609
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7031a6106c4fb094eb6c52a9267183e0
+      internalID: -1943954823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 582
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8c386f2a372984c9a436baaff2775a
+      internalID: 552561148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 582
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b4a4319c0f94740931d60737c981c2
+      internalID: -168162258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 582
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1e19ec09085a24a939fc618256837c
+      internalID: -212014252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 581
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efc2c987a6bd3f4bbd6b1316b4a09b7
+      internalID: 1129491723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 552
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71f4e5a306990c4894ea6734660fb22
+      internalID: 1055266817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 551
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebbe9c9c12a4b54e97cc508cd56a31e
+      internalID: 1924674153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 549
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad6f851266364842a949dadd5f6b059
+      internalID: -1942045836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 551
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5593a5d3f05cc724ea2f53f255a4bdeb
+      internalID: 369349789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 553
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3545b7ca8a7c5cd479eeb7cde323c267
+      internalID: -85195894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 546
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416a5736c48b94c49b736360e3ab35ec
+      internalID: -1552482461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 522
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8744bd9cc2a2f849905efb9682aa7f4
+      internalID: 1139303262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 521
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba96cd8fe1b6224d970f653c4c2ab70
+      internalID: -1639018681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 520
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb07a7e910083f44a3caf702819a322
+      internalID: -213471205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 514
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af226cb617d3aa4abbf90e8465f5043
+      internalID: -1061820322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 491
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4698b85692b1e8498bde48b3dc0bf04
+      internalID: -1618283462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 490
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e3c7f712172504e99ea1a57d449872
+      internalID: -1939001691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 489
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6ee079a59d45a45b00849b9647db60
+      internalID: 2072138263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 483
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b19a86e1d22b6439182f2be15075ae
+      internalID: -1072685902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 450
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc20929467f3c1458701bab3fdf4f55
+      internalID: 1186345941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 450
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2baf1d325f75da4cb5e18e7d7ef84a0
+      internalID: 395722800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 450
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c55e7c80e1e7a45a8f6ea96aa49fa1
+      internalID: 1689737505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 450
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb0882e2433ff9409eecf28f2e8b9c8
+      internalID: -91506763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 420
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2073a839b20e3544c95cb1b57cf999c1
+      internalID: 452900266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 420
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d262c197943f74abee09e443fc875d
+      internalID: -515880194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 420
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15128a53df6033d49a5ccb5f0a3bdcac
+      internalID: -878235243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 419
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3423cc6a818b44f88d2ced7f282a90
+      internalID: 500292208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 386
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e00b4aaca3c0648b32d3fbb877beb4
+      internalID: 739770957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 387
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccbe036028243040ad8665f49aa7d65
+      internalID: -1638049685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 387
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915b9891173d95f41afc6a94c6ddf31d
+      internalID: -387358931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 387
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95655d4f8569175488cbdd1f7984eeb7
+      internalID: -1156277014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 352
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a5b1b85ebed204abd8da9c7fb77074
+      internalID: -1497304279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731cbae44cd0a72448ebe58829c0ff86
+      internalID: -832612215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 352
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c22a3f99a7645143b59db800b99bf4c
+      internalID: 1104256099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db91642a4705344fa21a79b9e8e6931
+      internalID: 1578910037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 323
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb3616f2d4383646bcd9bdc6e1a2aa2
+      internalID: 433607649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 323
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f5c4b6c39aa614ebc7bdda5e52bc92
+      internalID: -1390048895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 323
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cd623fda64eed429af093fa3344775
+      internalID: 987969994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 326
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08c26e9fe46bdc499daf24ec5b4fc3c
+      internalID: -1529028432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 288
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab04089d6cdb9244e93963954dd2684c
+      internalID: -1830737242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_80
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 288
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cd88c7f3c70364baa9fb4e87ca9649
+      internalID: -126186662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_81
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 287
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c312177b8c1994cbf76ec8be309238
+      internalID: 1580892964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_82
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 288
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9082037d44838924280e38adebe231a5
+      internalID: 1219175629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_83
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 262
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fcee3c72c889e4abc16791704a87fe
+      internalID: -1234251688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_84
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 262
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9621b50b55dfc52408e25b9f85154056
+      internalID: -1617979304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_85
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 262
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e650e6f8f3185f94486362e51e804aa9
+      internalID: -1207882180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5599a119d8a9a504eab1f15793054068
+      internalID: -1364485597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_87
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 230
+        width: 64
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a9e640edd1c594ca8d6fc01c922f76
+      internalID: -1651032169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_88
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 198
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9443e07461dbf3c458a3a230375e3539
+      internalID: 102237609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_89
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 198
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422ecb4dab5eacd40a5717fc8a341bbe
+      internalID: 1175908630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_90
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 198
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cc02918d0f8a44697c171f4ec62073
+      internalID: -718752241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15617b203e629b64fabd76b1df5107b2
+      internalID: 1236404040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_92
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 167
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f986760a380c3e42836884c8fa02ce5
+      internalID: -350483086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_93
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 166
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ad53e0437135a4faeb0f58ce88c1a4
+      internalID: 802836059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_94
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 130
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a90fb45c0ec0e146a1df17be4f2faaa
+      internalID: -1438547338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_95
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 130
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afec2f6503b8bb4ca624035d1fbb0e6
+      internalID: -53628475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_96
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 130
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab4eb175df33fa4398b12110b0fb219
+      internalID: 1577921859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_97
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 143
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8417be57771539040bbb668274acf666
+      internalID: -1573043008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_98
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 133
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447a5c02752417a41913b95ccdf63aa6
+      internalID: -1303399678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_99
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 133
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67540a3124e95a04b924b31c5ba2a4ad
+      internalID: -1501102306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 97
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c86647c93ee02a43ab72081257d14b7
+      internalID: 2090776474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_101
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 97
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31778ab0fafc2a641923fa60d2d5f13d
+      internalID: 161447160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_102
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 97
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44094772efda5bd4e95270de0b35ba92
+      internalID: -59426980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_103
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 97
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc13dbee1ec0d3c4686493a6fdead884
+      internalID: 2007245769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0673d47c3454a408a43c330e557209
+      internalID: 1190605630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_105
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba8779a06cefda4eb01d1386b234f97
+      internalID: -1697249896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_106
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb99c6a11c72cdc47bf743ea3d83d858
+      internalID: -316263922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_107
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 65
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c3c021b97a857409aa7bdbe1d55077
+      internalID: 1328928498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95c094847923a3449a75b091c46f5d5
+      internalID: -1612639016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_109
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 33
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5e9dccbb9c8de40a6a8d7b0baa657a
+      internalID: 211439327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_110
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 32
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493085b8f577a4a4cb447acd2fffea63
+      internalID: 1508174773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_111
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 32
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e50a5da84d4fb649906a8733a930579
+      internalID: -151457324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc548cd71e72ced4191b733457a78bcd
+      internalID: 1772886042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_113
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 10
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d169d3dbb53868d4c8bfb4c9462fc66a
+      internalID: -1931142310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_114
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 10
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296b9649f778e6943983da5bf41619e4
+      internalID: 756755285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatures_edit_0-removebg-preview_115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 5
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07967e33c6bf1745a0d79da7da2dd38
+      internalID: 125803468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      creatures_edit_0-removebg-preview_0: 1560825424
+      creatures_edit_0-removebg-preview_1: -369851044
+      creatures_edit_0-removebg-preview_10: -1553503717
+      creatures_edit_0-removebg-preview_100: 2090776474
+      creatures_edit_0-removebg-preview_101: 161447160
+      creatures_edit_0-removebg-preview_102: -59426980
+      creatures_edit_0-removebg-preview_103: 2007245769
+      creatures_edit_0-removebg-preview_104: 1190605630
+      creatures_edit_0-removebg-preview_105: -1697249896
+      creatures_edit_0-removebg-preview_106: -316263922
+      creatures_edit_0-removebg-preview_107: 1328928498
+      creatures_edit_0-removebg-preview_108: -1612639016
+      creatures_edit_0-removebg-preview_109: 211439327
+      creatures_edit_0-removebg-preview_11: -1692866388
+      creatures_edit_0-removebg-preview_110: 1508174773
+      creatures_edit_0-removebg-preview_111: -151457324
+      creatures_edit_0-removebg-preview_112: 1772886042
+      creatures_edit_0-removebg-preview_113: -1931142310
+      creatures_edit_0-removebg-preview_114: 756755285
+      creatures_edit_0-removebg-preview_115: 125803468
+      creatures_edit_0-removebg-preview_12: 602573677
+      creatures_edit_0-removebg-preview_13: 1629390008
+      creatures_edit_0-removebg-preview_14: -1798553002
+      creatures_edit_0-removebg-preview_15: -394122867
+      creatures_edit_0-removebg-preview_16: -946863274
+      creatures_edit_0-removebg-preview_17: -1582750411
+      creatures_edit_0-removebg-preview_18: -153178227
+      creatures_edit_0-removebg-preview_19: -1835743791
+      creatures_edit_0-removebg-preview_2: 943533879
+      creatures_edit_0-removebg-preview_20: 1734917473
+      creatures_edit_0-removebg-preview_21: 1641983299
+      creatures_edit_0-removebg-preview_22: -940801606
+      creatures_edit_0-removebg-preview_23: -405632656
+      creatures_edit_0-removebg-preview_24: -1028080006
+      creatures_edit_0-removebg-preview_25: 1730031615
+      creatures_edit_0-removebg-preview_26: -879747373
+      creatures_edit_0-removebg-preview_27: 422013395
+      creatures_edit_0-removebg-preview_28: 2021696509
+      creatures_edit_0-removebg-preview_29: 897418121
+      creatures_edit_0-removebg-preview_3: 1589796995
+      creatures_edit_0-removebg-preview_30: -72351455
+      creatures_edit_0-removebg-preview_31: 736069632
+      creatures_edit_0-removebg-preview_32: -764999082
+      creatures_edit_0-removebg-preview_33: 1158034547
+      creatures_edit_0-removebg-preview_34: -1712661102
+      creatures_edit_0-removebg-preview_35: 837169217
+      creatures_edit_0-removebg-preview_36: 1483307498
+      creatures_edit_0-removebg-preview_37: 836917550
+      creatures_edit_0-removebg-preview_38: 682185114
+      creatures_edit_0-removebg-preview_39: 641637952
+      creatures_edit_0-removebg-preview_4: 1918145022
+      creatures_edit_0-removebg-preview_40: -1943954823
+      creatures_edit_0-removebg-preview_41: 552561148
+      creatures_edit_0-removebg-preview_42: -168162258
+      creatures_edit_0-removebg-preview_43: -212014252
+      creatures_edit_0-removebg-preview_44: 1129491723
+      creatures_edit_0-removebg-preview_45: 1055266817
+      creatures_edit_0-removebg-preview_46: 1924674153
+      creatures_edit_0-removebg-preview_47: -1942045836
+      creatures_edit_0-removebg-preview_48: 369349789
+      creatures_edit_0-removebg-preview_49: -85195894
+      creatures_edit_0-removebg-preview_5: 2084127561
+      creatures_edit_0-removebg-preview_50: -1552482461
+      creatures_edit_0-removebg-preview_51: 1139303262
+      creatures_edit_0-removebg-preview_52: -1639018681
+      creatures_edit_0-removebg-preview_53: -213471205
+      creatures_edit_0-removebg-preview_54: -1061820322
+      creatures_edit_0-removebg-preview_55: -1618283462
+      creatures_edit_0-removebg-preview_56: -1939001691
+      creatures_edit_0-removebg-preview_57: 2072138263
+      creatures_edit_0-removebg-preview_58: -1072685902
+      creatures_edit_0-removebg-preview_59: 1186345941
+      creatures_edit_0-removebg-preview_6: -173049311
+      creatures_edit_0-removebg-preview_60: 395722800
+      creatures_edit_0-removebg-preview_61: 1689737505
+      creatures_edit_0-removebg-preview_62: -91506763
+      creatures_edit_0-removebg-preview_63: 452900266
+      creatures_edit_0-removebg-preview_64: -515880194
+      creatures_edit_0-removebg-preview_65: -878235243
+      creatures_edit_0-removebg-preview_66: 500292208
+      creatures_edit_0-removebg-preview_67: 739770957
+      creatures_edit_0-removebg-preview_68: -1638049685
+      creatures_edit_0-removebg-preview_69: -387358931
+      creatures_edit_0-removebg-preview_7: -1597915924
+      creatures_edit_0-removebg-preview_70: -1156277014
+      creatures_edit_0-removebg-preview_71: -1497304279
+      creatures_edit_0-removebg-preview_72: -832612215
+      creatures_edit_0-removebg-preview_73: 1104256099
+      creatures_edit_0-removebg-preview_74: 1578910037
+      creatures_edit_0-removebg-preview_75: 433607649
+      creatures_edit_0-removebg-preview_76: -1390048895
+      creatures_edit_0-removebg-preview_77: 987969994
+      creatures_edit_0-removebg-preview_78: -1529028432
+      creatures_edit_0-removebg-preview_79: -1830737242
+      creatures_edit_0-removebg-preview_8: -1464574885
+      creatures_edit_0-removebg-preview_80: -126186662
+      creatures_edit_0-removebg-preview_81: 1580892964
+      creatures_edit_0-removebg-preview_82: 1219175629
+      creatures_edit_0-removebg-preview_83: -1234251688
+      creatures_edit_0-removebg-preview_84: -1617979304
+      creatures_edit_0-removebg-preview_85: -1207882180
+      creatures_edit_0-removebg-preview_86: -1364485597
+      creatures_edit_0-removebg-preview_87: -1651032169
+      creatures_edit_0-removebg-preview_88: 102237609
+      creatures_edit_0-removebg-preview_89: 1175908630
+      creatures_edit_0-removebg-preview_9: 574319502
+      creatures_edit_0-removebg-preview_90: -718752241
+      creatures_edit_0-removebg-preview_91: 1236404040
+      creatures_edit_0-removebg-preview_92: -350483086
+      creatures_edit_0-removebg-preview_93: 802836059
+      creatures_edit_0-removebg-preview_94: -1438547338
+      creatures_edit_0-removebg-preview_95: -53628475
+      creatures_edit_0-removebg-preview_96: 1577921859
+      creatures_edit_0-removebg-preview_97: -1573043008
+      creatures_edit_0-removebg-preview_98: -1303399678
+      creatures_edit_0-removebg-preview_99: -1501102306
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
