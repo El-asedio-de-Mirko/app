@@ -5,38 +5,88 @@ using System.Linq;
 
 public class EnemiesController : MonoBehaviour
 {
-    private float minX, maxX, minY, maxY;
-    
+    [Header("Spawning Settings")]
     [SerializeField] private Transform[] puntos;
     [SerializeField] private GameObject[] enemigos;
-    [SerializeField] private float tiempoEnemigos;
+    [SerializeField] private float tiempoEnemigos = 2f;
+    [SerializeField] private int maxEnemigosPorPunto = 5;
+    [SerializeField] private int maxEnemigosTotales = 20;
+
+    [Header("Boss Settings")]
+    [SerializeField] private GameObject bossPrefab;
+    [SerializeField] private Transform bossPoint;
 
     private float tiempoSiguienteEnemigo;
+    private int totalSpawned;
+    private int[] spawnCountPerPoint;
+    private bool bossSpawned;
 
     private void Start()
     {
-        maxX = puntos.Max(punto => punto.position.x);
-        minX = puntos.Min(punto => punto.position.x);
-        maxY = puntos.Max(punto => punto.position.y);
-        minY = puntos.Min(punto => punto.position.y);
+        // Inicializar contador por punto
+        spawnCountPerPoint = new int[puntos.Length];
     }
 
     private void Update()
     {
-        tiempoSiguienteEnemigo += Time.deltaTime;
-        if (tiempoSiguienteEnemigo >= tiempoEnemigos)
+        // Si aún falta spawnear enemigos regulares
+        if (totalSpawned < maxEnemigosTotales)
         {
-            tiempoSiguienteEnemigo = 0;
-            CrearEnemgigo();
+            tiempoSiguienteEnemigo += Time.deltaTime;
+            if (tiempoSiguienteEnemigo >= tiempoEnemigos)
+            {
+                tiempoSiguienteEnemigo = 0f;
+                CrearEnemigo();
+            }
+        }
+        else if (!bossSpawned)
+        {
+            // Cuando ya no quedan enemigos en escena, spawnear boss
+            if (GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
+            {
+                SpawnearBoss();
+                bossSpawned = true;
+            }
         }
     }
 
-    private void CrearEnemgigo()
+    private void CrearEnemigo()
     {
-        int numeroEnemigo = Random.Range(0, enemigos.Length);
-        Vector2 posicionAleatoria = new Vector2(Random.Range(minX, maxX), Random.Range(minY, maxY));
+        // Obtener índices de puntos disponibles
+        List<int> disponibles = new List<int>();
+        for (int i = 0; i < puntos.Length; i++)
+        {
+            if (spawnCountPerPoint[i] < maxEnemigosPorPunto)
+                disponibles.Add(i);
+        }
 
-        Instantiate(enemigos[numeroEnemigo], posicionAleatoria, Quaternion.identity);
-        
-    } 
+        // Si ningún punto tiene espacio libre, no spawnear más
+        if (disponibles.Count == 0)
+            return;
+
+        // Elegir punto aleatorio entre los disponibles
+        int idx = disponibles[Random.Range(0, disponibles.Count)];
+        Transform punto = puntos[idx];
+
+        // Elegir tipo de enemigo aleatorio
+        int enf = Random.Range(0, enemigos.Length);
+        GameObject nuevo = Instantiate(enemigos[enf], punto.position, Quaternion.identity);
+        nuevo.tag = "Enemy"; // Asegúrate de usar este tag en tus prefabs
+
+        spawnCountPerPoint[idx]++;
+        totalSpawned++;
+    }
+
+    private void SpawnearBoss()
+    {
+        // Spawnear el boss en el punto designado
+        if (bossPrefab != null && bossPoint != null)
+        {
+            Instantiate(bossPrefab, bossPoint.position, Quaternion.identity);
+        }
+        else
+        {
+            Debug.LogWarning("Boss prefab o bossPoint no asignado en el inspector.");
+        }
+    }
 }
