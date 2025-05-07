@@ -2,14 +2,14 @@
 using UnityEngine.SceneManagement;
 
 
-
-using UnityEngine;
-using UnityEngine.SceneManagement;
-
 public class Pentagram : MonoBehaviour
 {
     private Animator animator;
     private bool bandera;
+
+    [SerializeField]
+    private JsonManager jsonManager;    
+   
 
     [Header("Personalización visual")]
     public Renderer portalRenderer;
@@ -20,6 +20,8 @@ public class Pentagram : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
+        int nivel = jsonManager.GetLevelInfo().level;
+        Debug.Log($"Nivel Actual: {nivel}");
 
         
         if (portalParticles != null)
@@ -51,8 +53,9 @@ public class Pentagram : MonoBehaviour
     {
         animator.SetTrigger("Activar");
         bandera = true;
-
         
+
+
         if (portalParticles != null)
         {
             var colorOverLifetime = portalParticles.colorOverLifetime;
@@ -83,6 +86,8 @@ public class Pentagram : MonoBehaviour
         if (other.CompareTag("Player") && bandera)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            int siguiente = jsonManager.GetLevelInfo().level + 1;
+            jsonManager.ChangeLevelAndSave(siguiente);
             Debug.Log("Holis");
         }
     }

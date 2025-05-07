@@ -7,22 +7,43 @@ public class JsonManager : MonoBehaviour
 
     [SerializeField]
    private LevelInfo levelInfo;
+    private string PathToFile => Path.Combine(Application.persistentDataPath, "levelData.data");
+
+    private void Awake()
+    {
+        Load();
+    }
+    [ContextMenu("Save")]
     public void Save()
     {
         string levelInfoJson = JsonUtility.ToJson(levelInfo);
-        string path = Path.Combine( Application.persistentDataPath , "/levelData.data");
-        File.WriteAllText(path, levelInfoJson);
-        Debug.Log(levelInfoJson);
-        Debug.Log(path);
+        File.WriteAllText(PathToFile, levelInfoJson);
+        Debug.Log("Save");
+        
     }
 
     public void Load()
     {
-        string path = Path.Combine(Application.persistentDataPath, "/levelData.data");
-        string levelInfoJson = File.ReadAllText(path);
-        LevelInfo levelInfoLoaded = JsonUtility.FromJson<LevelInfo>(levelInfoJson);
-        levelInfo.level = levelInfoLoaded.level;
-        
+        if (!File.Exists(PathToFile))
+        {
+            Debug.LogWarning($"[Load] No existe el archivo en: {PathToFile}");
+            return;
+        }
+
+        string json = File.ReadAllText(PathToFile);
+        JsonUtility.FromJsonOverwrite(json, levelInfo);
+        Debug.Log($"[Load] Datos cargados: {json}");
+
     }
+
+    public void ChangeLevelAndSave(int nuevoNivel)
+    {
+        levelInfo.level = nuevoNivel;
+        Save();
+    }
+
+    public LevelInfo GetLevelInfo() => levelInfo;
+
+
 
 }
