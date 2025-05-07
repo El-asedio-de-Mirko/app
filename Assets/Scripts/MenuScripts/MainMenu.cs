@@ -1,7 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
+
 
 public class MainMenu : MonoBehaviour
 {
@@ -11,5 +15,11 @@ public class MainMenu : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-    
+
+    public void Salir()
+    {
+        Debug.Log("Salio!!!");
+        Application.Quit();
+    }
+
 }
