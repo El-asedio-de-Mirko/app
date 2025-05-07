@@ -16,18 +16,15 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb2D;
     private float footstepTimer = 0f;
     public Vector2 moveDirection { get; private set; }
-    public Vector2 lastMoveDirection { get; private set; }  // ← nueva
 
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
-        lastMoveDirection = Vector2.up; // dirección por defecto
     }
 
     void Update()
     {
         InputManager();
-        
         if (Input.GetKeyDown(KeyCode.E))
             StartCoroutine(ActivateParry());
 
@@ -40,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void InputManager() 
+    void InputManager()
     {
         float moveX = Input.GetAxis("Horizontal");
         float moveY = Input.GetAxis("Vertical");
@@ -50,6 +48,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void Move() 
+    void Move()
     {
         float currentSpeed = isParrying ? moveSpeed * parrySpeedMultiplier : moveSpeed;
         rb2D.velocity = moveDirection * currentSpeed;
