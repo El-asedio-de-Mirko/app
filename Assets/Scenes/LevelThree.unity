@@ -17011,9 +17011,12 @@ CanvasRenderer:
   m_GameObject: {fileID: 916799866}
   m_CullTransparentMesh: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &935837444
 GameObject:
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1 &942554709
 GameObject:
   m_ObjectHideFlags: 0
@@ -52254,6 +52257,9 @@ Rigidbody2D:
   m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!1 &1932601876
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
@@ -52725,4 +52731,7 @@ SceneRoots:
 =======
   - {fileID: 1060783768}
   - {fileID: 942554714}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
