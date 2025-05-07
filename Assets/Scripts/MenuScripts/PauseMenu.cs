@@ -9,6 +9,8 @@ public class PauseMenu : MonoBehaviour
 
     [SerializeField] private GameObject botonPausa;
     [SerializeField] private GameObject menuPausa;
+    [SerializeField] private WinMenu winMenu;
+
     private bool juegoPausa=false;
 
     private void Update()
@@ -24,7 +26,14 @@ public class PauseMenu : MonoBehaviour
                 Pausa();
             }
         }
-        
+
+        if (Input.GetKeyUp(KeyCode.D))
+        {
+            winMenu.Win();
+        }
+
+
+
 
     }
 
