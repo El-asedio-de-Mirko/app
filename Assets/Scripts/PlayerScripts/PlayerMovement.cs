@@ -10,22 +10,21 @@ public class PlayerMovement : MonoBehaviour
     public float parryDuration = 2f;
 
     private Rigidbody2D rb2D;
-    public Vector2 moveDirection;
+    public Vector2 moveDirection { get; private set; }
+    public Vector2 lastMoveDirection { get; private set; }  // ← nueva
 
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
+        lastMoveDirection = Vector2.up; // dirección por defecto
     }
 
     void Update()
     {
         InputManager();
         
-        
         if (Input.GetKeyDown(KeyCode.E))
-        {
             StartCoroutine(ActivateParry());
-        }
     }
 
     void FixedUpdate()
@@ -33,16 +32,20 @@ public class PlayerMovement : MonoBehaviour
         Move();
     }
 
-    void InputManager() {
+    void InputManager() 
+    {
         float moveX = Input.GetAxis("Horizontal");
         float moveY = Input.GetAxis("Vertical");
 
         moveDirection = new Vector2(moveX, moveY).normalized;
+        if (moveDirection.sqrMagnitude > 0.01f)
+            lastMoveDirection = moveDirection;
     }
 
-    void Move() {
+    void Move() 
+    {
         float currentSpeed = isParrying ? moveSpeed * parrySpeedMultiplier : moveSpeed;
-        rb2D.velocity = new Vector2(moveDirection.x * currentSpeed, moveDirection.y * currentSpeed);
+        rb2D.velocity = moveDirection * currentSpeed;
     }
 
     IEnumerator ActivateParry()
@@ -52,3 +55,4 @@ public class PlayerMovement : MonoBehaviour
         isParrying = false;
     }
 }
+

@@ -4,18 +4,20 @@ using UnityEngine;
 
 public class KnifeController : WeaponsController
 {
-    new KnifeController kc;
-    protected override void Start()
-    {
-        base.Start();
-    }
-
     protected override void Attack()
     {
         base.Attack();
-        GameObject spawnedKnife = Instantiate(weaponData.Prefab);
-        spawnedKnife.transform.position = transform.position;
-        spawnedKnife.GetComponent<KnifeBehavior>().DirectionChecker(pm.moveDirection);
+
+        // Instanciamos el prefab en tu posición
+        GameObject spawnedKnife = Instantiate(weaponData.Prefab, transform.position, Quaternion.identity);
+
+        // Si no te mueves, usamos la última dirección
+        Vector3 dir = pm.moveDirection;
+        if (dir.sqrMagnitude < 0.01f)
+            dir = pm.lastMoveDirection;
+
+        spawnedKnife.GetComponent<KnifeBehavior>().DirectionChecker(dir);
     }
 }
+
 
