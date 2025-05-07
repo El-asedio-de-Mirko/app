@@ -6695,6 +6695,10 @@ MonoBehaviour:
   enemigos:
   - {fileID: 2826539108890450481, guid: 2022c5680bc4edd4ba244dccd938191e, type: 3}
   tiempoEnemigos: 2
+  maxEnemigosPorPunto: 5
+  maxEnemigosTotales: 20
+  bossPrefab: {fileID: 0}
+  bossPoint: {fileID: 0}
 --- !u!4 &747857260
 Transform:
   m_ObjectHideFlags: 0
@@ -6884,6 +6888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7a1ab236b7477498d182958b88e2e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jsonManager: {fileID: 1017898908}
   portalRenderer: {fileID: 783485131}
   portalParticles: {fileID: 663946981}
   colorActivado: {r: 0.3, g: 1, b: 1, a: 1}
@@ -7110,6 +7115,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 798966186}
   m_CullTransparentMesh: 1
+--- !u!1 &1017898907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1017898909}
+  - component: {fileID: 1017898908}
+  m_Layer: 0
+  m_Name: DataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1017898908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017898907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc537df7e280b547910b2f1c4f01377, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelInfo:
+    level: 2
+--- !u!4 &1017898909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017898907}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 53.84211, y: -27.417738, z: 2.7750282}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1063336207
 GameObject:
   m_ObjectHideFlags: 0
@@ -50868,7 +50919,6 @@ MonoBehaviour:
   parrySpeedMultiplier: 2
   isParrying: 0
   parryDuration: 1
-  moveDirection: {x: 0, y: 0}
 --- !u!50 &2116041711
 Rigidbody2D:
   serializedVersion: 4
@@ -51029,3 +51079,4 @@ SceneRoots:
   - {fileID: 27861985}
   - {fileID: 398398462}
   - {fileID: 322888955}
+  - {fileID: 1017898909}

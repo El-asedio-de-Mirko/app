@@ -7,8 +7,5 @@ using UnityEngine;
 public class LevelInfo 
 {
    public int level;
-    public LevelInfo()
-    {
-        level = 0;
-    }
+   
 }
