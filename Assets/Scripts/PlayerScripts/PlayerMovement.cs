@@ -9,7 +9,12 @@ public class PlayerMovement : MonoBehaviour
     public bool isParrying = false;
     public float parryDuration = 2f;
 
+    public AudioSource footstepAudioSource;
+    public AudioClip footstepClip;
+    public float footstepInterval = 0.4f; // Tiempo entre pasos
+
     private Rigidbody2D rb2D;
+    private float footstepTimer = 0f;
     public Vector2 moveDirection { get; private set; }
     public Vector2 lastMoveDirection { get; private set; }  // ← nueva
 
@@ -25,6 +30,8 @@ public class PlayerMovement : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.E))
             StartCoroutine(ActivateParry());
+
+        HandleFootsteps(); // <-- Agregado aquí
     }
 
     void FixedUpdate()
@@ -46,6 +53,42 @@ public class PlayerMovement : MonoBehaviour
     {
         float currentSpeed = isParrying ? moveSpeed * parrySpeedMultiplier : moveSpeed;
         rb2D.velocity = moveDirection * currentSpeed;
+
+        bool isMoving = moveDirection.sqrMagnitude > 0.1f;
+
+        if (isMoving)
+        {
+            if (!footstepAudioSource.isPlaying)
+            {
+                footstepAudioSource.clip = footstepClip;
+                footstepAudioSource.loop = true;
+                footstepAudioSource.Play();
+            }
+        }
+        else
+        {
+            if (footstepAudioSource.isPlaying)
+            {
+                footstepAudioSource.Stop();
+            }
+        }
+    }
+
+    void HandleFootsteps()
+    {
+        if (moveDirection.sqrMagnitude > 0.1f)
+        {
+            footstepTimer -= Time.deltaTime;
+            if (footstepTimer <= 0f)
+            {
+                footstepAudioSource.PlayOneShot(footstepClip);
+                footstepTimer = footstepInterval;
+            }
+        }
+        else
+        {
+            footstepTimer = 0f;
+        }
     }
 
     IEnumerator ActivateParry()
