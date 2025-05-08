@@ -1576,7 +1576,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 224, y: 127}
+  m_AnchoredPosition: {x: 224, y: 78}
   m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &640262742
@@ -6798,6 +6798,7 @@ MonoBehaviour:
   maxEnemigosTotales: 20
   bossPrefab: {fileID: 0}
   bossPoint: {fileID: 0}
+  winMenu: {fileID: 0}
 --- !u!4 &747857260
 Transform:
   m_ObjectHideFlags: 0
@@ -13309,6 +13310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botonPausa: {fileID: 591104447}
   menuPausa: {fileID: 1696694245}
+  winMenu: {fileID: 0}
 --- !u!114 &1525148526
 MonoBehaviour:
   m_ObjectHideFlags: 0
