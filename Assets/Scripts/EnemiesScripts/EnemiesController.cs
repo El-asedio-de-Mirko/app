@@ -17,7 +17,7 @@ public class EnemiesController : MonoBehaviour
     [SerializeField] private Transform bossPoint;
 
     [Header("Level Complete Canvas")]
-    [SerializeField] private GameObject finishCanvas;
+    [SerializeField] private WinMenu winMenu;
 
     private float tiempoSiguienteEnemigo;
     private int totalSpawned;
@@ -28,8 +28,7 @@ public class EnemiesController : MonoBehaviour
     private void Start()
     {
         spawnCountPerPoint = new int[puntos.Length];
-        if (finishCanvas != null)
-            finishCanvas.SetActive(false);                 // 3) Asegúrate de empezar oculto
+                
     }
 
     private void Update()
@@ -106,9 +105,6 @@ public class EnemiesController : MonoBehaviour
 
     private void FinishLevel()
     {
-        if (finishCanvas != null)
-            finishCanvas.SetActive(true);  // Mostrar canvas de nivel completado
-        else
-            Debug.LogWarning("FinishCanvas no asignado en el inspector.");
+        winMenu.Win();
     }
 }
