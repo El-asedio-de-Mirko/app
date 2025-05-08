@@ -16,20 +16,25 @@ public class EnemiesController : MonoBehaviour
     [SerializeField] private GameObject bossPrefab;
     [SerializeField] private Transform bossPoint;
 
+    [Header("Level Complete Canvas")]
+    [SerializeField] private GameObject finishCanvas;
+
     private float tiempoSiguienteEnemigo;
     private int totalSpawned;
     private int[] spawnCountPerPoint;
     private bool bossSpawned;
+    private bool levelCompleted; 
 
     private void Start()
     {
-        // Inicializar contador por punto
         spawnCountPerPoint = new int[puntos.Length];
+        if (finishCanvas != null)
+            finishCanvas.SetActive(false);                 // 3) Asegúrate de empezar oculto
     }
 
     private void Update()
     {
-        // Si aún falta spawnear enemigos regulares
+        // 4) Spawnear enemigos regulares
         if (totalSpawned < maxEnemigosTotales)
         {
             tiempoSiguienteEnemigo += Time.deltaTime;
@@ -39,13 +44,22 @@ public class EnemiesController : MonoBehaviour
                 CrearEnemigo();
             }
         }
+        // 5) Spawnear boss cuando no queden enemigos y aún no se ha spawneado
         else if (!bossSpawned)
         {
-            // Cuando ya no quedan enemigos en escena, spawnear boss
             if (GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
             {
                 SpawnearBoss();
                 bossSpawned = true;
+            }
+        }
+        // 6) Detectar muerte del boss (ya spawneado y ahora no hay más "Enemy")
+        else if (bossSpawned && !levelCompleted)
+        {
+            if (GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
+            {
+                FinishLevel();
+                levelCompleted = true;
             }
         }
     }
@@ -79,14 +93,22 @@ public class EnemiesController : MonoBehaviour
 
     private void SpawnearBoss()
     {
-        // Spawnear el boss en el punto designado
         if (bossPrefab != null && bossPoint != null)
         {
-            Instantiate(bossPrefab, bossPoint.position, Quaternion.identity);
+            GameObject boss = Instantiate(bossPrefab, bossPoint.position, Quaternion.identity);
+            boss.tag = "Enemy";  // Asegúrate que el prefab usa este tag
         }
         else
         {
             Debug.LogWarning("Boss prefab o bossPoint no asignado en el inspector.");
         }
+    }
+
+    private void FinishLevel()
+    {
+        if (finishCanvas != null)
+            finishCanvas.SetActive(true);  // Mostrar canvas de nivel completado
+        else
+            Debug.LogWarning("FinishCanvas no asignado en el inspector.");
     }
 }

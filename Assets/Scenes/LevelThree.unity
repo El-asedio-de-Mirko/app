@@ -56674,10 +56674,11 @@ MonoBehaviour:
   - {fileID: 5105874236198674512, guid: 361feca6928902a4daec2de9ceff8e43, type: 3}
   - {fileID: 2826539108890450481, guid: 2022c5680bc4edd4ba244dccd938191e, type: 3}
   tiempoEnemigos: 2
-  maxEnemigosPorPunto: 15
-  maxEnemigosTotales: 30
+  maxEnemigosPorPunto: 1
+  maxEnemigosTotales: 2
   bossPrefab: {fileID: 1995225538148753185, guid: 2cecf63a68629f048b54d48a8617b76a, type: 3}
   bossPoint: {fileID: 559450117}
+  finishCanvas: {fileID: 0}
 --- !u!4 &1745125214
 Transform:
   m_ObjectHideFlags: 0
